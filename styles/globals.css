@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  font-family: 'Inter', poppins; 
+  background-color: #060607;/* Example of adding a custom font */
+  color: aliceblue;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 20px; /* Adjust the space between paragraphs */
+
+}
+/* You can add more custom styles as needed */

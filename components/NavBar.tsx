@@ -1,9 +1,11 @@
 import Link from 'next/link';
-import styles from "@/components/NavBar.module.css"
+import styles from "@/components/NavBar.module.css";
 
 const NavBar = () => {
   return (
+
     <nav className={styles.navbar}>
+     
       <ul className={styles.navList}>
         <li className={styles.navItem}>
           <Link href="/">Home</Link>

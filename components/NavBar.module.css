@@ -1,29 +1,51 @@
 /* components/NavBar.module.css */
 .navbar {
-  background-color: #333;
-  padding: 2rem;
-  margin:0;
+  background-color: #ffffff;
+  padding: 2rem; /* Adjust padding for better mobile experience */
+  margin: 0;
+  flex-shrink: 0;
 }
 
 .navList {
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
-  margin-right: 5rem;
-  padding: 2px;
+  margin-right: 1rem; /* Reduced margin for better mobile experience */
+  padding: 0;
 }
 
 .navItem {
-  margin-right: 2rem;
+  margin-right: 1rem; /* Reduced margin for better mobile experience */
 }
 
 .navItem a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
 .navItem a:hover {
   text-decoration: none;
-  color: blue;
+  color: #660080;
 }
 
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.5rem; /* Reduce padding on smaller screens */
+  }
+
+  .navList {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    margin-right: 0; /* Remove margin */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .navItem {
+    margin-right: 0; /* Remove margin */
+    margin-bottom: 0.5rem; /* Add margin bottom for vertical spacing */
+  }
+
+  .navItem a {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
