@@ -5,8 +5,8 @@
 /* Custom global styles */
 body {
   font-family: 'Inter', poppins; 
-  background-color: #060607;/* Example of adding a custom font */
-  color: aliceblue;
+  background-color: #F5F5F5;/* Example of adding a custom font */
+  color: rgb(20, 20, 20);
 }
 
 p {

@@ -1,7 +1,7 @@
 /* components/NavBar.module.css */
 .navbar {
-  background-color: #ffffff;
-  padding: 2rem; /* Adjust padding for better mobile experience */
+  background-color: #1E3A8A;
+  padding: 2.5rem; /* Adjust padding for better mobile experience */
   margin: 0;
   flex-shrink: 0;
 }
@@ -10,22 +10,22 @@
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
-  margin-right: 1rem; /* Reduced margin for better mobile experience */
+  margin-right: 3rem; /* Reduced margin for better mobile experience */
   padding: 0;
 }
 
 .navItem {
-  margin-right: 1rem; /* Reduced margin for better mobile experience */
+  margin-right: 2rem; /* Reduced margin for better mobile experience */
 }
 
 .navItem a {
-  color: rgb(0, 0, 0);
+  color: rgb(248, 248, 248);
   text-decoration: none;
 }
 
 .navItem a:hover {
   text-decoration: none;
-  color: #660080;
+  color: #080611;
 }
 
 /* Media Query for Mobile Devices */
@@ -46,6 +46,6 @@
   }
 
   .navItem a {
-    font-size: 14px; /* Adjust font size for smaller screens */
+    font-size: 15px; /* Adjust font size for smaller screens */
   }
 }

@@ -5,6 +5,7 @@ import Link from "next/link";
 
 
 
+
 export default function Home() {
   return (
     <main className={styles.container}>
@@ -24,6 +25,7 @@ export default function Home() {
       <div>
         <p>I write engaging blogs and work on a range of projects that fuel my curiosity and passion. My blog posts cover a variety of topics, where I dive into trends, share insights, and offer practical advice. Beyond writing, I’m actively involved in projects that challenge my skills and allow me to experiment with new technologies. From developing innovative applications to exploring creative solutions, I enjoy applying my knowledge and making a positive impact through both my writing and hands-on work."</p>
       </div>
+
 
 
     </main>
