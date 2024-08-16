@@ -20,6 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+
       <body className={inter.className}>
         <NavBar /> {/* NavBar at the top */}
         <main>{children}</main> {/* Main content */}

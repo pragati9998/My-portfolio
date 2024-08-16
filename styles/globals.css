@@ -4,14 +4,17 @@
 
 /* Custom global styles */
 body {
-  font-family: 'Inter', poppins; 
-  background-color: #F5F5F5;/* Example of adding a custom font */
+  font-family: 'Inter', poppins;
+  background-color: #F5F5F5;
+  /* Example of adding a custom font */
   color: rgb(20, 20, 20);
 }
 
 p {
   font-size: 1rem;
-  margin-bottom: 20px; /* Adjust the space between paragraphs */
+  margin-bottom: 20px;
+  /* Adjust the space between paragraphs */
 
 }
+
 /* You can add more custom styles as needed */
