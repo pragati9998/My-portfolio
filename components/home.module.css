@@ -1,14 +1,80 @@
-.container {
-  text-align: center;
-  padding: 20px;
+.page {
+    padding: 2rem;
+    background-color: #fcfdff;
 }
 
 .heading {
-  color: #000000;
-  font-size: 2rem;
-  margin: 20px 0;
-  text-align: center;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding-bottom: 20px;
+}
 
+.projectCard {
+    display: block;
+    width: 300px;
+    background-color: #592ba4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-decoration: none;
+    color: #ead8d8;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.projectCard:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.projectImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.projectDetails {
+    padding: 1rem;
+}
+
+.projectTitle {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.projectDescription {
+    margin: 0.5rem 0 0;
+    color: #e8eef4;
+}
+
+.readMore {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #0070f3;
+
+    color: white;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.readMore:hover {
+    background-color: #005bb5;
+}
+
+.aboutpage {
+    display: flex;
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}

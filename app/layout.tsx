@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer'; // Import the Footer component
+
+
 import { Inter } from "next/font/google";
 import "../styles/globals.css";
 
@@ -18,9 +20,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/pragati.png" /> {/* Link to favicon */}
-      </head>
       <body className={inter.className}>
         <NavBar /> {/* NavBar at the top */}
         <main>{children}</main> {/* Main content */}

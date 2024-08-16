@@ -1,3 +1,4 @@
+
 export default function Footer() {
     return (
         <footer className="bg-gradient-to-r from-gray-800 via-gray-900 to-black text-white py-8">

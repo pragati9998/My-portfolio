@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
 
     <nav className={styles.navbar}>
-     
+
       <ul className={styles.navList}>
         <li className={styles.navItem}>
           <Link href="/">Home</Link>
